@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Shopping Mart</h1>
+        </div>
+        <ul>
+            <a onclick="home()" id="homes" href="" >HOME</a>
+            <a onclick="cloth()" id="cloths" href="#cloth">CLOTHS</a>
+            <a onclick="blog()" id="blogs" href="#blog">BLOGS</a>
+            <a onclick="contact()" id="contacts" href="#contact">CONTACT US</a>
+            <button id="login">Log In</button>
+
+
+        </ul>
+    </nav>
+    
+    <div id="log">
+        <input id="logName" type="text" placeholder="Enter Email">
+        <input type="password" placeholder="Enter Password"><br>
+        <button id="btn">Log In</button>
+
+    </div>
+
+    <div class="main" >
+        <div class="text">
+            <h1>Great Deals & Exciting Offers</h1>
+            <h3>Save Upto 30% Off</h3>
+            
+            <button>Explore</button>
+        </div>
+
+       
+    </div>
+
+    <div class="women" id="cloth">
+        <div class="head">
+            <h1>Trending <span>Women's T-Shirt</span></h1>
+        </div>
+
+        <div class="shop">
+            <div class="card">
+                <img src="g1.webp" alt="">
+                <div class="cardText">
+                    <p>Trending T-Shirts</p>
+                    <h3>$10</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="g4.webp" alt="">
+                <div class="cardText">
+                    <p>Trending T-Shirts</p>
+                    <h3>$10</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+ 
+                </div>
+            </div>
+            <div class="card">
+                <img src="g3.webp" alt="">
+                <div class="cardText">
+                    <p>Trending T-Shirts</p>
+                    <h3>$10</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="men" id="cloths">
+        <div class="heads">
+            <h1>Trending <span>Men's T-Shirt</span></h1>
+        </div>
+
+        <div class="shop">
+            <div class="card">
+                <img src="M1.webp" alt="">
+                <div class="cardText">
+                    <p>Trending T-Shirts</p>
+                    <h3>$10</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="M2.webp" alt="">
+                <div class="cardText">
+                    <p>Trending white T-Shirt </p>
+                    <h3>$22</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="M3.webp" alt="">
+                <div class="cardText">
+                    <p>Trending Black hoodie</p>
+                    <h3>$19</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i> 
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- blogs -->
+
+    <div class="trend" id="blog">
+        <div class="head">
+            <h1>Read <span>Blogs</span></h1>
+        </div>
+        <div class="trending">
+            <div class="trendCard">
+                <img src="trend1.webp" alt="">
+                <div class="trendText">
+                    <h2>Girl's Trending Tops</h2>
+                    <p>These styles can be mixed and matched with various bottoms for different occasions.</p>
+                    <a href="#" >Read More</a >
+                </div>
+            </div>
+            <div class="trendCard">
+                <img src="trend2.webp" alt="">
+                <div class="trendText">
+                    <h2>Boys Trending T-Shirt</h2>
+                    <p>These tops can be paired with a variety of pants.</p>
+                    <a href="#">Read More</a >
+                </div>
+            </div>
+        </div>
+    </div>
+   <footer class="footer">
+
+  	 <div class="footer-container">
+
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 			
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 			<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 	
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

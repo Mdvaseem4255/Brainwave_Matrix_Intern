@@ -1,0 +1,358 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.logo{
+    margin-left: 9px;
+    font-size: 19px;
+    
+}
+nav{
+     position: fixed;
+     margin-top: -91px;
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 0px rgb(167, 167, 167);
+}
+ul {
+    display: flex;
+    margin-right: 11px;
+}
+nav ul #homes{
+    color: rgb(218, 9, 9);
+}
+nav button{
+    width: 80px;
+    height: 30px; 
+    background-color: rgb(202, 15, 15);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 32px;
+
+}
+nav button:hover{
+    
+    background-color: transparent;
+    border: 2px solid rgb(235, 4, 4);
+    color: black;
+    transition: 0.3s ease;
+    
+    
+}
+#log{
+    position: absolute;
+    margin-left: 78%;
+    margin-top: -1%;
+    display: none;
+    width: 230px;
+    text-align: center;
+    background-color: #fff;
+    padding: 22px;
+
+}
+#log input{
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    margin-top: 11px;
+    padding: 5px;
+    border: 2px solid black;
+}
+#log button{
+    width: 100px;
+    height: 30px;
+    background-color:rgb(206, 2, 2);
+    color: white;
+    font-size: 18px;
+    border: none;
+    margin-top: 11px;
+}
+ul a{
+    text-decoration: none;
+    margin-inline: 29px;
+    margin-top: 7px;
+    cursor: pointer;
+    color: black;
+}
+ul a:hover{
+    border-bottom:2px solid rgb(206, 5, 5) ;
+    color: rgb(226, 38, 38);
+    font-weight: 600;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 92px;
+     
+    
+}
+
+.main .text{
+    margin-top: 84px;
+    
+}
+.text h1{
+    font-size:58px;
+}
+.text h3{
+    margin-top: 11px;
+    font-size: 36px;
+    color: rgb(3, 148, 148);
+}
+.main .text p{
+    margin-top: 21px;
+    color: rgb(58, 57, 57);
+}
+.text button{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(196, 13, 13);
+    color: white;
+    font-size: 22px;
+    border-radius: 50px;
+    margin-top: 26px;
+    border: none;
+}
+.text button:hover{
+    background-color: transparent;
+    border: 3px solid red;
+    color: black;
+    cursor: pointer;
+    transition: 0.7s ease;
+    font-size: 26px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+}
+
+.shop .card{
+    width: 260px;
+    height: 460px;
+    background-color: #fff;
+    padding: 16px;
+    margin-inline: 22px;
+    
+}
+.shop .card:hover{
+    transition: 0.6s ease;
+    width: 280px;
+    height: 480px;
+    background-color: rgb(133, 132, 132);
+}
+.shop .card img{
+    width:100%;
+    height: 79%;
+    border-radius: 5px;
+    
+}
+
+.cardText i{
+    color: rgb(255, 176, 4);
+}
+.cardText{
+    font-size: 19px;
+    margin-top:  11px;
+    
+}
+.cardText button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(219, 5, 5);
+    color: white;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    margin-left: 73px;
+    position: absolute;
+}
+.cardText h3{
+    margin-top: 9px;
+}
+.cardText i{
+    margin-top: 9px;
+}
+.head{
+    text-align: center;
+    /* margin-top: 93px; */
+    padding: 92px;
+}
+.head span{
+    color: rgb(219,51,175);
+}
+.heads{
+  text-align: center;
+  padding: 92px;
+}
+.heads span{
+  color: blue;
+}
+
+.trending{
+    display: flex;
+    justify-content: center;
+}
+.trendCard{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    margin-inline: 22px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.trendCard img{
+    padding: 11px;
+    width: 88%;
+    border-radius:15px;
+}
+.trendCard:hover{
+    width: 510px;
+    height: 310px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.trendText{
+    margin-top: 53px;
+    padding: 22px;
+}
+.trendText p{
+    margin-top: 11px;
+}
+.trendText a{
+  position: relative;
+  top: 22px;
+    width: 100px;
+    padding: 4px;
+    background-color: rgb(207, 6, 6);
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    
+ 
+}
+.trendText a:hover{
+    background-color: #fff;
+    border: 2px solid gray;
+    color: black;
+    cursor: pointer;
+}
+
+
+.footer-col ul{
+	list-style: none;
+	display: block;
+	
+	
+	
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0 150px 70px ;
+    box-sizing:border-box;
+    line-height: 1.5;
+    
+}
+.footer-container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap:wrap;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+	
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 40px;
+
+	
+	
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight:900;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+	margin-left:4px;
+	line-height:1.0px;
+	
+	
+	
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+	margin-bottom:16px ;
+	
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
